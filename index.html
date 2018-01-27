@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>49th Sekurity Division</title>
-    <link rel="stylesheet" href="main.css">
+        <title>49th Sekurity Division</title>
+        <link rel="stylesheet" href="main.css"> 
+        <script type="text/javascript"> 
+            var totalCount = 4;
+            function ChangeIt() {
+                var num = Math.ceil( Math.random() * totalCount );
+                document.body.background = 'hacker_gif'+num+'.gif';
+                document.body.style.backgroundSize = "cover";
+            }
+        </script>
     </head>
     <body>
-        <script>
-            $(document).ready(function(){
-                var classCycle=['hacker_gif0.gif','hacker_gif1.gif','hacker_gif2.gif','hacker_gif3.gif','hacker_gif4.gif'];
-                var randomNumber = Math.floor(Math.random() * classCycle.length);
-                var classToAdd = classCycle[randomNumber];
-                $('body').addClass(classToAdd);
-            });
-        </script>
-            
+        <script type="text/javascript">ChangeIt();</script>
         <form action="http://49thsecuritydivision.com">
             <input type="submit" value="Go to 49thsecuritydivision.com" />
         </form>
