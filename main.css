@@ -24,6 +24,10 @@ a:active {
     color: blue;
 }
 */
+body {
+    background-color: black;
+}
+
 h1 {
     color: white; 
     display: block;
@@ -32,7 +36,7 @@ h1 {
     text-shadow: 10px 15px #00ff00;
     -webkit-text-stroke-width: 6px;
     -webkit-text-stroke-color: #000000;
-    font-size: 700%;
+    font-size: 300%;
     margin-top: 300px;
     margin-bottom: 0.67em;
     margin-left: 0;
